@@ -1,0 +1,26 @@
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  width: calc(100% - 3rem);
+  top: 85%;
+  left: 1.5rem;
+  right: 1.5rem;
+}
+
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}

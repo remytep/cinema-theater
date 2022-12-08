@@ -1,0 +1,16 @@
+.popup-form {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+.popup-form input {
+  width: 100%;
+}
+
+.highlight {
+  outline: 9999px solid rgba(0, 0, 0, 0.5);
+}
